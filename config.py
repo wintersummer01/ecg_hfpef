@@ -1,5 +1,8 @@
-LEARNING_RATE = 0.0001
+RAW_DATA_DIR = '/home/ubuntu/ecg_mount/220927_SevMUSE_EKG_waveform'
+CSV_PAIR_ROOT = '/home/ubuntu/ecg_hfpef/data/fname_score_pair.csv'
 
+LEARNING_RATE = 0.0001
+VALIDATION_RATE = 0.1
 
 BATCH_SIZE = 64
 KERNEL_SIZE = [17, 13, 9, 7, 5]

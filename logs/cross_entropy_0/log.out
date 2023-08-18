@@ -1,0 +1,13 @@
+Epoch 1 training
+Training finished. RMS: 333.19
+Mean Loss : 13.615835189819336
+Calculating R squared score in validation set
+R2 Score : -0.006411153806522796
+
+Epoch 2 training
+Training finished. RMS: 235.66
+Mean Loss : 7.438216209411621
+Calculating R squared score in validation set
+R2 Score : -0.006411153806522796
+
+Epoch 3 training

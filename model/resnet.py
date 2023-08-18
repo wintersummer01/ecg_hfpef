@@ -42,7 +42,7 @@ class ecg2Hfpef(Model):
             self.residual_blocks.add(
                 residualBlock(dimensions[i], dimensions[i+1], kernel_size, stride, dropout_rate)
             )
-        self.projection = layers.Dense(1)
+        self.projection = layers.Dense(8)
         self.final_dim = dimensions[5]*kernel_sizes[4]
 
     def call(self, x):

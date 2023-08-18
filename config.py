@@ -1,7 +1,8 @@
 RAW_DATA_DIR = '/home/ubuntu/ecg_mount/220927_SevMUSE_EKG_waveform'
 CSV_PAIR_ROOT = '/home/ubuntu/ecg_hfpef/data/fname_score_pair.csv'
+LOG_ROOT = '/home/ubuntu/ecg_hfpef/logs/'
 
-LEARNING_RATE = 0.0001
+LEARNING_RATE = 0.01
 VALIDATION_RATE = 0.1
 
 BATCH_SIZE = 64

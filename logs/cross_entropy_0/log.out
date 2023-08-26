@@ -11,3 +11,20 @@ Calculating R squared score in validation set
 R2 Score : -0.006411153806522796
 
 Epoch 3 training
+Training finished. RMS: 295.93
+Mean Loss : 6.107125282287598
+Calculating R squared score in validation set
+R2 Score : -0.006411153806522796
+
+Epoch 4 training
+Training finished. RMS: 2123.25
+Mean Loss : 7.616844654083252
+Calculating R squared score in validation set
+R2 Score : -0.006411153806522796
+
+Epoch 5 training
+Training finished. RMS: 1930.81
+Mean Loss : 7.315384864807129
+Calculating R squared score in validation set
+R2 Score : -0.006411153806522796
+

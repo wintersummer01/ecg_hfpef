@@ -23,3 +23,98 @@ To enable them in other operations, rebuild TensorFlow with the appropriate comp
 2023-08-17 10:29:24.964430: I tensorflow/compiler/jit/xla_compilation_cache.cc:477] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
 WARNING:tensorflow:5 out of the last 5 calls to <function _BaseOptimizer._update_step_xla at 0x7f926444f0d0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
 WARNING:tensorflow:6 out of the last 6 calls to <function _BaseOptimizer._update_step_xla at 0x7f926444f0d0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-08-19 13:42:03.736709: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-08-19 13:42:03.856658: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-08-19 13:42:04.446900: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-08-19 13:42:04.447010: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-08-19 13:42:04.447028: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-08-19 13:42:05.814112: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-19 13:42:05.854530: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-19 13:42:05.856571: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-19 13:42:05.858743: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-08-19 13:42:05.859641: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-19 13:42:05.861542: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-19 13:42:05.863506: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-19 13:42:06.603558: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-19 13:42:06.604500: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-19 13:42:06.605265: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-19 13:42:06.605974: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13641 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:1e.0, compute capability: 7.5
+0it [00:00, ?it/s]2023-08-19 13:42:09.598711: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:428] Loaded cuDNN version 8903
+10it [00:05,  1.67it/s]20it [00:11,  1.80it/s]30it [00:23,  1.15it/s]40it [00:36,  1.02s/it]50it [00:48,  1.09s/it]60it [01:00,  1.13s/it]70it [01:12,  1.15s/it]80it [01:24,  1.16s/it]90it [01:37,  1.22s/it]100it [01:49,  1.22s/it]110it [02:01,  1.21s/it]120it [02:13,  1.21s/it]130it [02:25,  1.20s/it]140it [02:37,  1.21s/it]150it [02:51,  1.24s/it]160it [03:03,  1.24s/it]170it [03:15,  1.23s/it]180it [03:28,  1.25s/it]190it [03:41,  1.26s/it]200it [03:53,  1.24s/it]210it [04:06,  1.25s/it]220it [04:18,  1.24s/it]230it [04:30,  1.25s/it]240it [04:48,  1.40s/it]250it [05:07,  1.55s/it]260it [05:27,  1.70s/it]270it [05:41,  1.58s/it]280it [05:53,  1.49s/it]284it [05:58,  1.26s/it]
+WARNING:tensorflow:Detecting that an object or model or tf.train.Checkpoint is being deleted with unrestored values. See the following logs for the specific values in question. To silence these warnings, use `status.expect_partial()`. See https://www.tensorflow.org/api_docs/python/tf/train/Checkpoint#restorefor details about the status object returned by the restore function.
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-0.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-1.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-1.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-1.moving_mean
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-1.moving_variance
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-2.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-2.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-3.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-3.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-3.moving_mean
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-3.moving_variance
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-5.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-5.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-6.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-6.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-6.moving_mean
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-6.moving_variance
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-7.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-7.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-8.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-8.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-8.moving_mean
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-8.moving_variance
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-10.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-10.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-11.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-11.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-11.moving_mean
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-11.moving_variance
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-12.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-12.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-13.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-13.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-13.moving_mean
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-13.moving_variance
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-15.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-15.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-16.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-16.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-16.moving_mean
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-16.moving_variance
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-17.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-17.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-18.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-18.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-18.moving_mean
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-18.moving_variance
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-20.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-20.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-21.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-21.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-21.moving_mean
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-21.moving_variance
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-22.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-22.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-23.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-23.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-23.moving_mean
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-23.moving_variance
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-4.layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-4.layer_with_weights-0.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-9.layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-9.layer_with_weights-0.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-14.layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-14.layer_with_weights-0.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-19.layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-19.layer_with_weights-0.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-24.layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).residual_blocks.layer_with_weights-24.layer_with_weights-0.bias
+R2 Score : -0.8980138729123672
+
+RMS : 1.59
+

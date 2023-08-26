@@ -9,14 +9,13 @@ from sklearn.metrics import r2_score
 from utils import setOutputDir
 from model.resnet import ecg2Hfpef
 from data.dataset import getDataset
-from config import KERNEL_SIZE, DIMENSION, STRIDE, DROPOUT_RATE, \
-LEARNING_RATE, BATCH_SIZE, VALIDATION_RATE
+from config import KERNEL_SIZE, DIMENSION, STRIDE, DROPOUT_RATE, LEARNING_RATE
 
-def train_model(num_epoch, lr, val_rate, batch_size, print_out, train_tag="default", **train_args):
+def train_model(num_epoch, lr, print_out, train_tag="default", **model_args):
     path = setOutputDir(train_tag, print_out)
     
-    model = ecg2Hfpef(**train_args)
-    train_ds, test_ds = getDataset(val_rate, batch_size)
+    model = ecg2Hfpef(**model_args)
+    train_ds, test_ds = getDataset()
 
     optimizer = tf.optimizers.Adam(learning_rate=lr)
     loss_fn = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
@@ -65,14 +64,14 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     train_tag = "cross_entropy"
-    train_args = {
+    model_args = {
         'kernel_sizes':KERNEL_SIZE,
         'dimensions':DIMENSION,
         'strides':STRIDE,
         'dropout_rate':DROPOUT_RATE
     }
-    train_model(args.epoch, LEARNING_RATE, VALIDATION_RATE, BATCH_SIZE,\
-                args.print_out, train_tag=train_tag, **train_args)
+    train_model(args.epoch, LEARNING_RATE, \
+                args.print_out, train_tag=train_tag, **model_args)
     
     
     

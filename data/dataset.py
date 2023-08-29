@@ -1,7 +1,26 @@
 import pandas as pd
+import numpy as np
 import tensorflow as tf
 from config import RAW_DATA_DIR, CSV_PAIR_ROOT, \
 VALIDATION_RATE, BATCH_SIZE
+
+def minmax_scaling(data, new_min=0, new_max=1):
+    data_min = np.min(data, axis=1, keepdims=True)
+    data_max = np.max(data, axis=1, keepdims=True)
+    scaled_data = new_min + (data - data_min) * (new_max - new_min) / (data_max - data_min)
+    return scaled_data
+
+
+def getDatasetGenerator(start, end):
+    csv_data = pd.read_csv(CSV_PAIR_ROOT)
+    csv_data = csv_data.iloc[start:end]
+    for i in range(len(csv_data)):
+        data_root = f"{RAW_DATA_DIR}/{csv_data.iloc[i]['fname']}"
+        ecg_data = pd.read_csv(data_root).to_numpy()
+        ecg_data = minmax_scaling(ecg_data)
+        score = csv_data.iloc[i]['score']
+        yield ecg_data, (score, )
+
 
 def getDataset(validation_rate=VALIDATION_RATE, batch_size=BATCH_SIZE, \
                mode='train'):
@@ -29,14 +48,4 @@ def getDataset(validation_rate=VALIDATION_RATE, batch_size=BATCH_SIZE, \
         
 
 
-def getDatasetGenerator(start, end):
-    csv_data = pd.read_csv(CSV_PAIR_ROOT)
-    csv_data = csv_data.iloc[start:end]
-    
-    for i in range(len(csv_data)):
-        data_root = f"{RAW_DATA_DIR}/{csv_data.iloc[i]['fname']}"
-        ecg_data = pd.read_csv(data_root).to_numpy()
-        score = csv_data.iloc[i]['score']
-        
-        yield ecg_data, (score, )
         

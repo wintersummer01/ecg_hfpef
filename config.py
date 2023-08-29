@@ -5,7 +5,7 @@ LOG_ROOT = '/home/ubuntu/ecg_hfpef/logs/'
 LEARNING_RATE = 0.001
 VALIDATION_RATE = 0.1
 
-BATCH_SIZE = 64
+BATCH_SIZE = 2048
 KERNEL_SIZE = [17, 13, 9, 7, 5]
 
 # Assuming input dimension (5000, 12)

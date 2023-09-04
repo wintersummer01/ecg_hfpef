@@ -1,7 +1,7 @@
 # Not Uploadable data
 # model weight and processed datasets
 logs/*/weight*
-*processed_data 
+*processed_data* 
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

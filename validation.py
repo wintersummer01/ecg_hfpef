@@ -4,31 +4,34 @@ import numpy as np
 import tensorflow as tf
 from sklearn.metrics import r2_score, mean_squared_error 
 
-from data.dataset import getDataset
+from data.dataset import getCritDataset
 from model.resnet import ecg2Hfpef
-from config import KERNEL_SIZE, DIMENSION, STRIDE, DROPOUT_RATE, LOG_ROOT
+from config import KERNEL_SIZE, DIMENSION, STRIDE, DROPOUT_RATE, LOG_DIR
 
 def valid_model(tag, weight_no, **model_args):
-    model_path = LOG_ROOT + '/' + tag + f'/weight_{weight_no}'
+    model_path = LOG_DIR + '/' + tag + f'/weight_{weight_no}'
     model = ecg2Hfpef(**model_args)
     model.load_weights(model_path)
-    test_ds = getDataset(mode='test')
-    
+    test_ds = getCritDataset(training=False)
     prediction = []
     ground_truth = []
-    for ecg, score in tqdm(test_ds, miniters=10, maxinterval=100):
+    
+    # Validation Process
+    for ecg, score in tqdm(test_ds):
         pred = model(ecg)
-        prediction.append(np.argmax(pred, axis=-1))
-        ground_truth.append(score.numpy().reshape(-1))
-    prediction, ground_truth = np.hstack(prediction), np.hstack(ground_truth)
+        pred_score = toHfpefScore(pred)
+        prediction.append(pred_score)
+        ground_truth.append(score)
+    prediction = np.hstack(prediction)
+    ground_truth = np.vstack(ground_truth).reshape(-1)
     R2_score = r2_score(ground_truth, prediction)
-    mse = mean_squared_error(ground_truth, prediction)
+    
+    # Print validation result
     print(f"R2 Score : {R2_score}\n")
-    print(f"RMS : {mse**0.5:.2f}\n")
     
     
 if __name__ == '__main__':
-    tag = "cross_entropy_0"
+    tag = "binary_entropy_0"
     weight_no = 4
     model_args = {
         'kernel_sizes':KERNEL_SIZE,

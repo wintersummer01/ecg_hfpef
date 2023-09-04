@@ -1,11 +1,15 @@
 RAW_DATA_DIR = '/home/ubuntu/ecg_mount/220927_SevMUSE_EKG_waveform'
+LOG_DIR = '/home/ubuntu/ecg_hfpef/logs/'
+PROC_DATA_DIR = '/home/ubuntu/ecg_hfpef/data/processed_data'
+
 CSV_PAIR_ROOT = '/home/ubuntu/ecg_hfpef/data/fname_score_pair.csv'
-LOG_ROOT = '/home/ubuntu/ecg_hfpef/logs/'
+CRIT_PAIR_ROOT = '/home/ubuntu/ecg_hfpef/data/fname_crit_pair.csv'
 
 LEARNING_RATE = 0.001
 VALIDATION_RATE = 0.1
 
-BATCH_SIZE = 2048
+DATA_BS = 2048
+BATCH_SIZE = 512
 KERNEL_SIZE = [17, 13, 9, 7, 5]
 
 # Assuming input dimension (5000, 12)

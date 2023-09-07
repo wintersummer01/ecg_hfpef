@@ -56,8 +56,8 @@ def valid_model(model, path, dataset, ds_type):
     
     
 if __name__ == '__main__':
-    tag = "binary_resnet_1"
-    weight_no = 51
+    tag = "binary_entropy_3" # "binary_resnet_1"
+    weight_no = 29 # 51
     model_args = {
         'kernel_sizes':KERNEL_SIZE,
         'dimensions':DIMENSION,
@@ -66,13 +66,12 @@ if __name__ == '__main__':
     }
     
     model_path = LOG_DIR + tag
-    model = ecg2Hfpef(**model_args)
-    model.load_weights("logs/binary_resnet_1/weight_51")
-#     model = ecg_CNN()
-#     model.load_weights("./logs/binary_entropy_3/weight_29")
-#     model = tf.keras.models.load_model("./logs/binary_entropy_3/model_29")
+#     model = ecg2Hfpef(**model_args)
+    model = ecg_CNN()
+    model.load_weights(model_path + f'/weight_{weight_no}')
+#     model = tf.keras.models.load_model(model_path + f'/model_{weight_no}')
     
     train_ds, test_ds = getCritDataset(training=False)
     
     # valid_model(model_path, train_ds, 'train')
-    valid_model(model, model_path, test_ds, 'test')
+    valid_model(model, model_path, test_ds, 'test weight')

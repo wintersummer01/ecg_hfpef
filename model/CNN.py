@@ -17,7 +17,7 @@ class convBlock(layers.Layer):
     
 
 class ecg_CNN(Model):
-    def __init__(self, channels=[4, 16, 32], dropout_rate=0.1, hidden_dim=512, num_crits=5, **kwargs):
+    def __init__(self, channels=[4, 16, 32], dropout_rate=0.1, hidden_dim=512, num_crits=5):
         super().__init__()
         self.conv_blocks = tf.keras.Sequential()
         for channel in channels:

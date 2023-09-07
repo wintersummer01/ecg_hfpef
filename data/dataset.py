@@ -34,14 +34,19 @@ def getCritDataset(validation_rate=VALIDATION_RATE, batch_size=BATCH_SIZE, train
                           tf.TensorSpec(shape=(None, 1), dtype=tf.float32)),
         args=(threshold, num_batches, 0)
     )
-        
+    
+    if training == False:
+        test_set = tf.data.Dataset.from_generator(
+            critDataGen,
+            output_signature=(tf.TensorSpec(shape=(None, 5000, 12), dtype=tf.float32),
+                              tf.TensorSpec(shape=(None, 5), dtype=tf.float32)),
+            args=(threshold, num_batches, 1)
+        )
+    
     train_set = train_set.unbatch().shuffle(batch_size*8).batch(batch_size)
     test_set = test_set.unbatch().batch(batch_size)
     
-    if training == True:
-        return train_set, test_set
-    else:
-        return test_set
+    return train_set, test_set
 
 
 

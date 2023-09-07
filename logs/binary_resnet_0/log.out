@@ -1,0 +1,794 @@
+
+Epoch 1 training
+Training finished
+Mean Loss : 0.51376
+RMS of each probability : 0.30161
+Calculating R squared score in validation set
+RMS of hfpef score : 1.62562
+R2 Score : -1.09802
+
+
+Epoch 2 training
+Training finished
+Mean Loss : 0.29623
+RMS of each probability : 0.29368
+Calculating R squared score in validation set
+RMS of hfpef score : 1.30505
+R2 Score : -0.28457
+
+
+Epoch 3 training
+Training finished
+Mean Loss : 0.28924
+RMS of each probability : 0.28931
+Calculating R squared score in validation set
+RMS of hfpef score : 1.19582
+R2 Score : 0.03702
+
+
+Epoch 4 training
+Training finished
+Mean Loss : 0.28241
+RMS of each probability : 0.28489
+Calculating R squared score in validation set
+RMS of hfpef score : 1.33852
+R2 Score : -0.19492
+
+
+Epoch 5 training
+Training finished
+Mean Loss : 0.27809
+RMS of each probability : 0.28266
+Calculating R squared score in validation set
+RMS of hfpef score : 1.36107
+R2 Score : -0.21012
+
+
+Epoch 6 training
+Training finished
+Mean Loss : 0.27547
+RMS of each probability : 0.28137
+Calculating R squared score in validation set
+RMS of hfpef score : 1.23051
+R2 Score : 0.03274
+
+
+Epoch 7 training
+Training finished
+Mean Loss : 0.27331
+RMS of each probability : 0.28035
+Calculating R squared score in validation set
+RMS of hfpef score : 1.31300
+R2 Score : -0.08240
+
+
+Epoch 8 training
+Training finished
+Mean Loss : 0.27032
+RMS of each probability : 0.27886
+Calculating R squared score in validation set
+RMS of hfpef score : 1.25869
+R2 Score : 0.05819
+
+
+Epoch 9 training
+Training finished
+Mean Loss : 0.26555
+RMS of each probability : 0.27633
+Calculating R squared score in validation set
+RMS of hfpef score : 1.27227
+R2 Score : 0.21566
+
+
+Epoch 10 training
+Training finished
+Mean Loss : 0.26107
+RMS of each probability : 0.27382
+Calculating R squared score in validation set
+RMS of hfpef score : 1.26441
+R2 Score : 0.16217
+
+
+Epoch 11 training
+Training finished
+Mean Loss : 0.25760
+RMS of each probability : 0.27164
+Calculating R squared score in validation set
+RMS of hfpef score : 1.37728
+R2 Score : 0.13159
+
+
+Epoch 12 training
+Training finished
+Mean Loss : 0.25540
+RMS of each probability : 0.27032
+Calculating R squared score in validation set
+RMS of hfpef score : 1.35470
+R2 Score : 0.25800
+
+
+Epoch 13 training
+Training finished
+Mean Loss : 0.25409
+RMS of each probability : 0.26967
+Calculating R squared score in validation set
+RMS of hfpef score : 1.29439
+R2 Score : 0.18722
+
+
+Epoch 14 training
+Training finished
+Mean Loss : 0.25314
+RMS of each probability : 0.26887
+Calculating R squared score in validation set
+RMS of hfpef score : 1.32055
+R2 Score : 0.26505
+
+
+Epoch 15 training
+Training finished
+Mean Loss : 0.25164
+RMS of each probability : 0.26807
+Calculating R squared score in validation set
+RMS of hfpef score : 1.35916
+R2 Score : 0.27190
+
+
+Epoch 16 training
+Training finished
+Mean Loss : 0.25102
+RMS of each probability : 0.26769
+Calculating R squared score in validation set
+RMS of hfpef score : 1.33518
+R2 Score : 0.18173
+
+
+Epoch 17 training
+Training finished
+Mean Loss : 0.25033
+RMS of each probability : 0.26707
+Calculating R squared score in validation set
+RMS of hfpef score : 1.45966
+R2 Score : 0.02799
+
+
+Epoch 18 training
+Training finished
+Mean Loss : 0.24999
+RMS of each probability : 0.26689
+Calculating R squared score in validation set
+RMS of hfpef score : 1.28736
+R2 Score : 0.16808
+
+
+Epoch 19 training
+Training finished
+Mean Loss : 0.25016
+RMS of each probability : 0.26710
+Calculating R squared score in validation set
+RMS of hfpef score : 1.35510
+R2 Score : 0.22956
+
+
+Epoch 20 training
+Training finished
+Mean Loss : 0.25003
+RMS of each probability : 0.26701
+Calculating R squared score in validation set
+RMS of hfpef score : 1.36801
+R2 Score : 0.28441
+
+
+Epoch 21 training
+Training finished
+Mean Loss : 0.25007
+RMS of each probability : 0.26701
+Calculating R squared score in validation set
+RMS of hfpef score : 1.40484
+R2 Score : 0.27536
+
+
+Epoch 22 training
+Training finished
+Mean Loss : 0.24995
+RMS of each probability : 0.26687
+Calculating R squared score in validation set
+RMS of hfpef score : 1.35970
+R2 Score : 0.25978
+
+
+Epoch 23 training
+Training finished
+Mean Loss : 0.25021
+RMS of each probability : 0.26712
+Calculating R squared score in validation set
+RMS of hfpef score : 1.30121
+R2 Score : 0.26585
+
+
+Epoch 24 training
+Training finished
+Mean Loss : 0.25053
+RMS of each probability : 0.26719
+Calculating R squared score in validation set
+RMS of hfpef score : 1.34249
+R2 Score : 0.28645
+
+
+Epoch 25 training
+Training finished
+Mean Loss : 0.24992
+RMS of each probability : 0.26679
+Calculating R squared score in validation set
+RMS of hfpef score : 1.36052
+R2 Score : 0.19272
+
+
+Epoch 26 training
+Training finished
+Mean Loss : 0.25078
+RMS of each probability : 0.26728
+Calculating R squared score in validation set
+RMS of hfpef score : 1.37289
+R2 Score : 0.28305
+
+
+Epoch 27 training
+Training finished
+Mean Loss : 0.25015
+RMS of each probability : 0.26698
+Calculating R squared score in validation set
+RMS of hfpef score : 1.38171
+R2 Score : 0.27982
+
+
+Epoch 28 training
+Training finished
+Mean Loss : 0.25084
+RMS of each probability : 0.26738
+Calculating R squared score in validation set
+RMS of hfpef score : 1.32557
+R2 Score : 0.26781
+
+
+Epoch 29 training
+Training finished
+Mean Loss : 0.25161
+RMS of each probability : 0.26766
+Calculating R squared score in validation set
+RMS of hfpef score : 1.48986
+R2 Score : -0.10274
+
+
+Epoch 30 training
+Training finished
+Mean Loss : 0.25121
+RMS of each probability : 0.26737
+Calculating R squared score in validation set
+RMS of hfpef score : 1.43380
+R2 Score : 0.16152
+
+
+Epoch 31 training
+Training finished
+Mean Loss : 0.25124
+RMS of each probability : 0.26748
+Calculating R squared score in validation set
+RMS of hfpef score : 1.41393
+R2 Score : 0.24753
+
+
+Epoch 32 training
+Training finished
+Mean Loss : 0.25105
+RMS of each probability : 0.26731
+Calculating R squared score in validation set
+RMS of hfpef score : 1.36379
+R2 Score : 0.30305
+
+
+Epoch 33 training
+Training finished
+Mean Loss : 0.25076
+RMS of each probability : 0.26707
+Calculating R squared score in validation set
+RMS of hfpef score : 1.30012
+R2 Score : 0.29334
+
+
+Epoch 34 training
+Training finished
+Mean Loss : 0.25121
+RMS of each probability : 0.26744
+Calculating R squared score in validation set
+RMS of hfpef score : 1.38702
+R2 Score : 0.26545
+
+
+Epoch 35 training
+Training finished
+Mean Loss : 0.25133
+RMS of each probability : 0.26739
+Calculating R squared score in validation set
+RMS of hfpef score : 1.31944
+R2 Score : 0.27974
+
+
+Epoch 36 training
+Training finished
+Mean Loss : 0.25129
+RMS of each probability : 0.26744
+Calculating R squared score in validation set
+RMS of hfpef score : 1.34142
+R2 Score : 0.31196
+
+
+Epoch 37 training
+Training finished
+Mean Loss : 0.25040
+RMS of each probability : 0.26688
+Calculating R squared score in validation set
+RMS of hfpef score : 1.31452
+R2 Score : 0.29258
+
+
+Epoch 38 training
+Training finished
+Mean Loss : 0.25040
+RMS of each probability : 0.26701
+Calculating R squared score in validation set
+RMS of hfpef score : 1.39483
+R2 Score : 0.26962
+
+
+Epoch 39 training
+Training finished
+Mean Loss : 0.25019
+RMS of each probability : 0.26680
+Calculating R squared score in validation set
+RMS of hfpef score : 1.48613
+R2 Score : 0.11932
+
+
+Epoch 40 training
+Training finished
+Mean Loss : 0.25031
+RMS of each probability : 0.26700
+Calculating R squared score in validation set
+RMS of hfpef score : 1.42098
+R2 Score : 0.26492
+
+
+Epoch 41 training
+Training finished
+Mean Loss : 0.25030
+RMS of each probability : 0.26691
+Calculating R squared score in validation set
+RMS of hfpef score : 1.36804
+R2 Score : 0.30040
+
+
+Epoch 42 training
+Training finished
+Mean Loss : 0.25087
+RMS of each probability : 0.26715
+Calculating R squared score in validation set
+RMS of hfpef score : 1.32050
+R2 Score : 0.29303
+
+
+Epoch 43 training
+Training finished
+Mean Loss : 0.25054
+RMS of each probability : 0.26709
+Calculating R squared score in validation set
+RMS of hfpef score : 1.34558
+R2 Score : 0.30072
+
+
+Epoch 44 training
+Training finished
+Mean Loss : 0.25232
+RMS of each probability : 0.26812
+Calculating R squared score in validation set
+RMS of hfpef score : 1.45397
+R2 Score : 0.21328
+
+
+Epoch 45 training
+Training finished
+Mean Loss : 0.25150
+RMS of each probability : 0.26756
+Calculating R squared score in validation set
+RMS of hfpef score : 1.42150
+R2 Score : 0.22877
+
+
+Epoch 46 training
+Training finished
+Mean Loss : 0.25148
+RMS of each probability : 0.26752
+Calculating R squared score in validation set
+RMS of hfpef score : 1.53139
+R2 Score : 0.08729
+
+
+Epoch 47 training
+Training finished
+Mean Loss : 0.25045
+RMS of each probability : 0.26696
+Calculating R squared score in validation set
+RMS of hfpef score : 1.38557
+R2 Score : 0.23362
+
+
+Epoch 48 training
+Training finished
+Mean Loss : 0.25037
+RMS of each probability : 0.26692
+Calculating R squared score in validation set
+RMS of hfpef score : 1.39634
+R2 Score : 0.26398
+
+
+Epoch 49 training
+Training finished
+Mean Loss : 0.25129
+RMS of each probability : 0.26747
+Calculating R squared score in validation set
+RMS of hfpef score : 1.38440
+R2 Score : 0.30206
+
+
+Epoch 50 training
+Training finished
+Mean Loss : 0.25149
+RMS of each probability : 0.26772
+Calculating R squared score in validation set
+RMS of hfpef score : 1.35171
+R2 Score : 0.26691
+
+
+Epoch 51 training
+Training finished
+Mean Loss : 0.25093
+RMS of each probability : 0.26727
+Calculating R squared score in validation set
+RMS of hfpef score : 1.33721
+R2 Score : 0.27557
+
+
+Epoch 52 training
+Training finished
+Mean Loss : 0.25074
+RMS of each probability : 0.26709
+Calculating R squared score in validation set
+RMS of hfpef score : 1.32363
+R2 Score : 0.31615
+
+
+Epoch 53 training
+Training finished
+Mean Loss : 0.25057
+RMS of each probability : 0.26700
+Calculating R squared score in validation set
+RMS of hfpef score : 1.36193
+R2 Score : 0.30771
+
+
+Epoch 54 training
+Training finished
+Mean Loss : 0.25007
+RMS of each probability : 0.26687
+Calculating R squared score in validation set
+RMS of hfpef score : 1.42558
+R2 Score : 0.20857
+
+
+Epoch 55 training
+Training finished
+Mean Loss : 0.25063
+RMS of each probability : 0.26708
+Calculating R squared score in validation set
+RMS of hfpef score : 1.51883
+R2 Score : 0.04872
+
+
+Epoch 56 training
+Training finished
+Mean Loss : 0.25163
+RMS of each probability : 0.26748
+Calculating R squared score in validation set
+RMS of hfpef score : 1.35391
+R2 Score : 0.28917
+
+
+Epoch 57 training
+Training finished
+Mean Loss : 0.25168
+RMS of each probability : 0.26754
+Calculating R squared score in validation set
+RMS of hfpef score : 1.76276
+R2 Score : -0.86877
+
+
+Epoch 58 training
+Training finished
+Mean Loss : 0.25095
+RMS of each probability : 0.26717
+Calculating R squared score in validation set
+RMS of hfpef score : 1.38062
+R2 Score : 0.26323
+
+
+Epoch 59 training
+Training finished
+Mean Loss : 0.25066
+RMS of each probability : 0.26707
+Calculating R squared score in validation set
+RMS of hfpef score : 1.43860
+R2 Score : 0.22172
+
+
+Epoch 60 training
+Training finished
+Mean Loss : 0.25094
+RMS of each probability : 0.26717
+Calculating R squared score in validation set
+RMS of hfpef score : 1.45557
+R2 Score : 0.15557
+
+
+Epoch 61 training
+Training finished
+Mean Loss : 0.25164
+RMS of each probability : 0.26771
+Calculating R squared score in validation set
+RMS of hfpef score : 1.52392
+R2 Score : 0.05351
+
+
+Epoch 62 training
+Training finished
+Mean Loss : 0.25114
+RMS of each probability : 0.26739
+Calculating R squared score in validation set
+RMS of hfpef score : 1.35864
+R2 Score : 0.31623
+
+
+Epoch 63 training
+Training finished
+Mean Loss : 0.25147
+RMS of each probability : 0.26763
+Calculating R squared score in validation set
+RMS of hfpef score : 1.41561
+R2 Score : 0.26251
+
+
+Epoch 64 training
+Training finished
+Mean Loss : 0.25088
+RMS of each probability : 0.26719
+Calculating R squared score in validation set
+RMS of hfpef score : 1.46795
+R2 Score : 0.23477
+
+
+Epoch 65 training
+Training finished
+Mean Loss : 0.25098
+RMS of each probability : 0.26716
+Calculating R squared score in validation set
+RMS of hfpef score : 1.34633
+R2 Score : 0.28805
+
+
+Epoch 66 training
+Training finished
+Mean Loss : 0.25062
+RMS of each probability : 0.26685
+Calculating R squared score in validation set
+RMS of hfpef score : 1.39925
+R2 Score : 0.25759
+
+
+Epoch 67 training
+Training finished
+Mean Loss : 0.25021
+RMS of each probability : 0.26679
+Calculating R squared score in validation set
+RMS of hfpef score : 1.41678
+R2 Score : 0.28099
+
+
+Epoch 68 training
+Training finished
+Mean Loss : 0.24947
+RMS of each probability : 0.26629
+Calculating R squared score in validation set
+RMS of hfpef score : 1.38229
+R2 Score : 0.20290
+
+
+Epoch 69 training
+Training finished
+Mean Loss : 0.25137
+RMS of each probability : 0.26745
+Calculating R squared score in validation set
+RMS of hfpef score : 1.33518
+R2 Score : 0.28156
+
+
+Epoch 70 training
+Training finished
+Mean Loss : 0.25164
+RMS of each probability : 0.26763
+Calculating R squared score in validation set
+RMS of hfpef score : 1.37549
+R2 Score : 0.29030
+
+
+Epoch 71 training
+Training finished
+Mean Loss : 0.25094
+RMS of each probability : 0.26723
+Calculating R squared score in validation set
+RMS of hfpef score : 1.43136
+R2 Score : 0.19164
+
+
+Epoch 72 training
+Training finished
+Mean Loss : 0.25006
+RMS of each probability : 0.26670
+Calculating R squared score in validation set
+RMS of hfpef score : 1.80081
+R2 Score : -0.84960
+
+
+Epoch 73 training
+Training finished
+Mean Loss : 0.25121
+RMS of each probability : 0.26723
+Calculating R squared score in validation set
+RMS of hfpef score : 1.37293
+R2 Score : 0.31101
+
+
+Epoch 74 training
+Training finished
+Mean Loss : 0.25093
+RMS of each probability : 0.26720
+Calculating R squared score in validation set
+RMS of hfpef score : 1.41335
+R2 Score : 0.30151
+
+
+Epoch 75 training
+Training finished
+Mean Loss : 0.25019
+RMS of each probability : 0.26673
+Calculating R squared score in validation set
+RMS of hfpef score : 1.44545
+R2 Score : 0.24281
+
+
+Epoch 76 training
+Training finished
+Mean Loss : 0.25087
+RMS of each probability : 0.26708
+Calculating R squared score in validation set
+RMS of hfpef score : 1.38763
+R2 Score : 0.30349
+
+
+Epoch 77 training
+Training finished
+Mean Loss : 0.25009
+RMS of each probability : 0.26687
+Calculating R squared score in validation set
+RMS of hfpef score : 1.39230
+R2 Score : 0.29521
+
+
+Epoch 78 training
+Training finished
+Mean Loss : 0.25002
+RMS of each probability : 0.26660
+Calculating R squared score in validation set
+RMS of hfpef score : 1.46644
+R2 Score : 0.20382
+
+
+Epoch 79 training
+Training finished
+Mean Loss : 0.25038
+RMS of each probability : 0.26689
+Calculating R squared score in validation set
+RMS of hfpef score : 1.42985
+R2 Score : 0.25657
+
+
+Epoch 80 training
+Training finished
+Mean Loss : 0.25105
+RMS of each probability : 0.26729
+Calculating R squared score in validation set
+RMS of hfpef score : 1.48763
+R2 Score : 0.20299
+
+
+Epoch 81 training
+Training finished
+Mean Loss : 0.25135
+RMS of each probability : 0.26728
+Calculating R squared score in validation set
+RMS of hfpef score : 1.36712
+R2 Score : 0.30000
+
+
+Epoch 82 training
+Training finished
+Mean Loss : 0.24934
+RMS of each probability : 0.26615
+Calculating R squared score in validation set
+RMS of hfpef score : 1.40291
+R2 Score : 0.29611
+
+
+Epoch 83 training
+Training finished
+Mean Loss : 0.24887
+RMS of each probability : 0.26596
+Calculating R squared score in validation set
+RMS of hfpef score : 1.46748
+R2 Score : 0.16355
+
+
+Epoch 84 training
+Training finished
+Mean Loss : 0.25086
+RMS of each probability : 0.26711
+Calculating R squared score in validation set
+RMS of hfpef score : 1.38531
+R2 Score : 0.25500
+
+
+Epoch 85 training
+Training finished
+Mean Loss : 0.24944
+RMS of each probability : 0.26623
+Calculating R squared score in validation set
+RMS of hfpef score : 1.43613
+R2 Score : 0.17023
+
+
+Epoch 86 training
+Training finished
+Mean Loss : 0.25061
+RMS of each probability : 0.26707
+Calculating R squared score in validation set
+RMS of hfpef score : 1.37392
+R2 Score : 0.29553
+
+
+Epoch 87 training
+Training finished
+Mean Loss : 0.25042
+RMS of each probability : 0.26670
+Calculating R squared score in validation set
+RMS of hfpef score : 1.35642
+R2 Score : 0.30588
+
+
+Epoch 88 training
+Training finished
+Mean Loss : 0.25039
+RMS of each probability : 0.26677
+Calculating R squared score in validation set
+RMS of hfpef score : 1.45700
+R2 Score : 0.09685
+
+
+Epoch 89 training

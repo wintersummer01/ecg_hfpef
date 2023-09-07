@@ -1,0 +1,271 @@
+Epoch 1 training
+Training finished
+RMS of each probability : 0.34
+Mean Loss : 0.38
+
+Calculating R squared score in validation set
+R2 Score : -2.6914327771515008
+
+RMS of score : 2.24
+Epoch 2 training
+Training finished
+RMS of each probability : 0.30
+Mean Loss : 0.31
+
+Calculating R squared score in validation set
+R2 Score : -0.7971606280375223
+
+RMS of score : 1.57
+Epoch 3 training
+Training finished
+RMS of each probability : 0.30
+Mean Loss : 0.30
+
+Calculating R squared score in validation set
+R2 Score : -0.5355221803225139
+
+RMS of score : 1.45
+Epoch 4 training
+Training finished
+RMS of each probability : 0.29
+Mean Loss : 0.29
+
+Calculating R squared score in validation set
+R2 Score : -0.3945619389747599
+
+RMS of score : 1.39
+Epoch 5 training
+Training finished
+RMS of each probability : 0.29
+Mean Loss : 0.29
+
+Calculating R squared score in validation set
+R2 Score : -0.2218228353286602
+
+RMS of score : 1.30
+Epoch 6 training
+Training finished
+RMS of each probability : 0.29
+Mean Loss : 0.29
+
+Calculating R squared score in validation set
+R2 Score : -0.1355048199568838
+
+RMS of score : 1.26
+Epoch 7 training
+Training finished
+RMS of each probability : 0.29
+Mean Loss : 0.28
+
+Calculating R squared score in validation set
+R2 Score : -0.0665175897313357
+
+RMS of score : 1.22
+Epoch 8 training
+Training finished
+RMS of each probability : 0.29
+Mean Loss : 0.28
+
+Calculating R squared score in validation set
+R2 Score : -0.02532646694629248
+
+RMS of score : 1.20
+Epoch 9 training
+Training finished
+RMS of each probability : 0.29
+Mean Loss : 0.28
+
+Calculating R squared score in validation set
+R2 Score : -0.007152990392034875
+
+RMS of score : 1.19
+Epoch 10 training
+Training finished
+RMS of each probability : 0.29
+Mean Loss : 0.28
+
+Calculating R squared score in validation set
+R2 Score : 0.022161554811226503
+
+RMS of score : 1.18
+Epoch 11 training
+Training finished
+RMS of each probability : 0.29
+Mean Loss : 0.28
+
+Calculating R squared score in validation set
+R2 Score : 0.04049899174805749
+
+RMS of score : 1.18
+Epoch 12 training
+Training finished
+RMS of each probability : 0.29
+Mean Loss : 0.28
+
+Calculating R squared score in validation set
+R2 Score : 0.04431153581872782
+
+RMS of score : 1.18
+Epoch 13 training
+Training finished
+RMS of each probability : 0.29
+Mean Loss : 0.28
+
+Calculating R squared score in validation set
+R2 Score : 0.05656722610325082
+
+RMS of score : 1.18
+Epoch 14 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.28
+
+Calculating R squared score in validation set
+R2 Score : 0.06839324834209037
+
+RMS of score : 1.18
+Epoch 15 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.28
+
+Calculating R squared score in validation set
+R2 Score : 0.07657671758942364
+
+RMS of score : 1.18
+Epoch 16 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.28
+
+Calculating R squared score in validation set
+R2 Score : 0.07942307085312084
+
+RMS of score : 1.18
+Epoch 17 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.27
+
+Calculating R squared score in validation set
+R2 Score : 0.08132452089752185
+
+RMS of score : 1.19
+Epoch 18 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.27
+
+Calculating R squared score in validation set
+R2 Score : 0.08064234044571583
+
+RMS of score : 1.19
+Epoch 19 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.27
+
+Calculating R squared score in validation set
+R2 Score : 0.07942320341037212
+
+RMS of score : 1.19
+Epoch 20 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.27
+
+Calculating R squared score in validation set
+R2 Score : 0.08153882580059046
+
+RMS of score : 1.19
+Epoch 21 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.27
+
+Calculating R squared score in validation set
+R2 Score : 0.07319898826922122
+
+RMS of score : 1.20
+Epoch 22 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.27
+
+Calculating R squared score in validation set
+R2 Score : 0.0680941569356075
+
+RMS of score : 1.20
+Epoch 23 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.27
+
+Calculating R squared score in validation set
+R2 Score : 0.07501808829830081
+
+RMS of score : 1.20
+Epoch 24 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.27
+
+Calculating R squared score in validation set
+R2 Score : 0.07225080232342895
+
+RMS of score : 1.21
+Epoch 25 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.27
+
+Calculating R squared score in validation set
+R2 Score : 0.0719684080481382
+
+RMS of score : 1.21
+Epoch 26 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.27
+
+Calculating R squared score in validation set
+R2 Score : 0.06091860353094969
+
+RMS of score : 1.21
+Epoch 27 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.27
+
+Calculating R squared score in validation set
+R2 Score : 0.06597568303034762
+
+RMS of score : 1.21
+Epoch 28 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.27
+
+Calculating R squared score in validation set
+R2 Score : 0.07229803001157697
+
+RMS of score : 1.22
+Epoch 29 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.26
+
+Calculating R squared score in validation set
+R2 Score : 0.07332615241405904
+
+RMS of score : 1.22
+Epoch 30 training
+Training finished
+RMS of each probability : 0.28
+Mean Loss : 0.26
+
+Calculating R squared score in validation set
+R2 Score : 0.06527430674913792
+
+RMS of score : 1.23
+Epoch 31 training

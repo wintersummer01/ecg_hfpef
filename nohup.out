@@ -383,3 +383,789 @@ WARNING:tensorflow:6 out of the last 6 calls to <function _BaseOptimizer._update
 2023-09-02 03:19:57.100832: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
 2023-09-02 03:30:29.158058: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
 2023-09-02 03:30:29.253517: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 03:28:52.543710: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-05 03:28:52.657666: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-09-05 03:28:53.217084: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-05 03:28:53.217199: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-05 03:28:53.217208: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-09-05 03:28:54.546687: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:28:54.585373: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:28:54.587491: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:28:54.589667: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-05 03:28:54.590480: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:28:54.592507: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:28:54.594509: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:28:55.306954: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:28:55.307982: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:28:55.308762: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:28:55.309503: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13641 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:1e.0, compute capability: 7.5
+2023-09-05 03:29:00.164729: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:428] Loaded cuDNN version 8903
+2023-09-05 03:29:01.454790: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x564f637e60f0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2023-09-05 03:29:01.454816: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+2023-09-05 03:29:01.459445: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2023-09-05 03:29:01.578180: I tensorflow/compiler/jit/xla_compilation_cache.cc:477] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+WARNING:tensorflow:5 out of the last 5 calls to <function _BaseOptimizer._update_step_xla at 0x7efe6c739f70> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function _BaseOptimizer._update_step_xla at 0x7efe6c739f70> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-09-05 03:32:44.969081: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-05 03:32:45.083495: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-09-05 03:32:45.642170: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-05 03:32:45.642272: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-05 03:32:45.642280: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-09-05 03:32:46.994638: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:32:47.033782: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:32:47.035066: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:32:47.036527: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-05 03:32:47.037356: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:32:47.038632: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:32:47.039874: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:32:47.785368: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:32:47.786376: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:32:47.787145: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 03:32:47.787868: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13641 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:1e.0, compute capability: 7.5
+2023-09-05 03:32:59.326951: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:428] Loaded cuDNN version 8903
+2023-09-05 03:33:00.910504: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x55e7937d5d20 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2023-09-05 03:33:00.910529: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+2023-09-05 03:33:00.915070: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2023-09-05 03:33:01.039297: I tensorflow/compiler/jit/xla_compilation_cache.cc:477] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+WARNING:tensorflow:5 out of the last 5 calls to <function _BaseOptimizer._update_step_xla at 0x7fc3e0539670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function _BaseOptimizer._update_step_xla at 0x7fc3e0539670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-09-05 03:41:49.894049: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 16384
+2023-09-05 03:42:00.559824: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 6145 of 16384
+2023-09-05 03:42:11.227316: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 10241 of 16384
+2023-09-05 03:42:21.899299: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 14337 of 16384
+2023-09-05 03:42:21.998710: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 03:52:03.488715: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 16384
+2023-09-05 03:52:10.904478: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 4097 of 16384
+2023-09-05 03:52:20.999078: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 8193 of 16384
+2023-09-05 03:52:29.491658: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 12289 of 16384
+2023-09-05 03:52:30.359225: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 04:01:36.390939: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 16384
+2023-09-05 04:01:48.549945: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 6145 of 16384
+2023-09-05 04:01:59.382474: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 10241 of 16384
+2023-09-05 04:02:06.318675: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 12289 of 16384
+2023-09-05 04:02:13.282988: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 04:11:54.788220: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 16384
+2023-09-05 04:12:02.048419: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 4097 of 16384
+2023-09-05 04:12:09.895149: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 6145 of 16384
+2023-09-05 04:12:25.993119: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 10241 of 16384
+2023-09-05 04:12:33.431525: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 12289 of 16384
+2023-09-05 04:12:40.714292: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 14337 of 16384
+2023-09-05 04:12:40.809149: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 04:22:10.611345: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 16384
+2023-09-05 04:22:23.642377: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 6145 of 16384
+2023-09-05 04:22:29.324425: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 8193 of 16384
+2023-09-05 04:22:42.514709: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 12289 of 16384
+2023-09-05 04:22:49.672851: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 14337 of 16384
+2023-09-05 04:22:49.769874: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 04:48:44.663521: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-05 04:48:44.779726: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-09-05 04:48:45.344071: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-05 04:48:45.344190: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-05 04:48:45.344199: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-09-05 04:48:46.686922: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 04:48:46.726114: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 04:48:46.728170: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 04:48:46.730392: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-05 04:48:46.731254: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 04:48:46.733270: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 04:48:46.735289: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 04:48:47.554342: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 04:48:47.555348: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 04:48:47.556131: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 04:48:47.556888: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13641 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:1e.0, compute capability: 7.5
+2023-09-05 04:48:54.628755: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:428] Loaded cuDNN version 8903
+2023-09-05 04:48:57.661461: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x563ff3887770 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2023-09-05 04:48:57.661492: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+2023-09-05 04:48:57.666115: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2023-09-05 04:48:57.785386: I tensorflow/compiler/jit/xla_compilation_cache.cc:477] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+WARNING:tensorflow:5 out of the last 5 calls to <function _BaseOptimizer._update_step_xla at 0x7f946c7cd790> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function _BaseOptimizer._update_step_xla at 0x7f946c7cd790> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-09-05 10:07:08.399192: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-05 10:07:09.750396: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-09-05 10:07:16.765673: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-05 10:07:16.765792: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-05 10:07:16.765802: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-09-05 10:07:26.145044: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:07:26.726476: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:07:26.727411: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:07:26.730624: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-05 10:07:26.731484: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:07:26.732308: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:07:26.733078: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:07:32.138540: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:07:32.143379: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:07:32.144225: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:07:32.145662: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 8 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:1e.0, compute capability: 7.5
+2023-09-05 10:07:48.534816: W tensorflow/tsl/framework/bfc_allocator.cc:479] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.34MiB (rounded to 1404928)requested by op StatelessRandomUniformV2
+If the cause is memory fragmentation maybe the environment variable 'TF_GPU_ALLOCATOR=cuda_malloc_async' will improve the situation. 
+Current allocation summary follows.
+Current allocation summary follows.
+2023-09-05 10:07:48.534869: I tensorflow/tsl/framework/bfc_allocator.cc:1034] BFCAllocator dump for GPU_0_bfc
+2023-09-05 10:07:48.534881: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (256): 	Total Chunks: 49, Chunks in use: 49. 12.2KiB allocated for chunks. 12.2KiB in use in bin. 3.1KiB client-requested in use in bin.
+2023-09-05 10:07:48.534888: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (512): 	Total Chunks: 11, Chunks in use: 11. 5.5KiB allocated for chunks. 5.5KiB in use in bin. 5.5KiB client-requested in use in bin.
+2023-09-05 10:07:48.534896: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (1024): 	Total Chunks: 13, Chunks in use: 13. 13.5KiB allocated for chunks. 13.5KiB in use in bin. 10.4KiB client-requested in use in bin.
+2023-09-05 10:07:48.534902: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (2048): 	Total Chunks: 1, Chunks in use: 1. 3.0KiB allocated for chunks. 3.0KiB in use in bin. 3.0KiB client-requested in use in bin.
+2023-09-05 10:07:48.534908: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (4096): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:48.534933: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (8192): 	Total Chunks: 1, Chunks in use: 1. 9.8KiB allocated for chunks. 9.8KiB in use in bin. 9.6KiB client-requested in use in bin.
+2023-09-05 10:07:48.534939: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (16384): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:48.534947: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (32768): 	Total Chunks: 3, Chunks in use: 2. 151.0KiB allocated for chunks. 89.0KiB in use in bin. 83.0KiB client-requested in use in bin.
+2023-09-05 10:07:48.534953: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (65536): 	Total Chunks: 2, Chunks in use: 1. 220.0KiB allocated for chunks. 98.0KiB in use in bin. 98.0KiB client-requested in use in bin.
+2023-09-05 10:07:48.534960: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (131072): 	Total Chunks: 4, Chunks in use: 2. 820.0KiB allocated for chunks. 428.0KiB in use in bin. 404.0KiB client-requested in use in bin.
+2023-09-05 10:07:48.534966: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (262144): 	Total Chunks: 1, Chunks in use: 1. 416.0KiB allocated for chunks. 416.0KiB in use in bin. 416.0KiB client-requested in use in bin.
+2023-09-05 10:07:48.534973: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (524288): 	Total Chunks: 3, Chunks in use: 2. 2.29MiB allocated for chunks. 1.42MiB in use in bin. 1.42MiB client-requested in use in bin.
+2023-09-05 10:07:48.534979: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (1048576): 	Total Chunks: 3, Chunks in use: 1. 4.10MiB allocated for chunks. 1.95MiB in use in bin. 1.03MiB client-requested in use in bin.
+2023-09-05 10:07:48.534985: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (2097152): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:48.534990: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (4194304): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:48.534995: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (8388608): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:48.535001: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (16777216): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:48.535006: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (33554432): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:48.535012: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (67108864): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:48.535017: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (134217728): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:48.535023: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (268435456): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:48.535029: I tensorflow/tsl/framework/bfc_allocator.cc:1057] Bin for 1.34MiB was 1.00MiB, Chunk State: 
+2023-09-05 10:07:48.535042: I tensorflow/tsl/framework/bfc_allocator.cc:1063]   Size: 1.03MiB | Requested Size: 1.03MiB | in_use: 0 | bin_num: 12, prev:   Size: 882.0KiB | Requested Size: 882.0KiB | in_use: 1 | bin_num: -1, next:   Size: 1.95MiB | Requested Size: 1.03MiB | in_use: 1 | bin_num: -1
+2023-09-05 10:07:48.535051: I tensorflow/tsl/framework/bfc_allocator.cc:1063]   Size: 1.12MiB | Requested Size: 1.03MiB | in_use: 0 | bin_num: 12, prev:   Size: 416.0KiB | Requested Size: 416.0KiB | in_use: 1 | bin_num: -1, next:   Size: 576.0KiB | Requested Size: 576.0KiB | in_use: 1 | bin_num: -1
+2023-09-05 10:07:48.535059: I tensorflow/tsl/framework/bfc_allocator.cc:1070] Next region of size 8388608
+2023-09-05 10:07:48.535067: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800000 of size 256 next 1
+2023-09-05 10:07:48.535072: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800100 of size 1280 next 2
+2023-09-05 10:07:48.535077: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800600 of size 256 next 3
+2023-09-05 10:07:48.535082: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800700 of size 256 next 4
+2023-09-05 10:07:48.535087: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800800 of size 256 next 5
+2023-09-05 10:07:48.535092: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800900 of size 256 next 6
+2023-09-05 10:07:48.535096: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800a00 of size 256 next 7
+2023-09-05 10:07:48.535101: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800b00 of size 256 next 8
+2023-09-05 10:07:48.535106: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800c00 of size 256 next 10
+2023-09-05 10:07:48.535111: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800d00 of size 256 next 11
+2023-09-05 10:07:48.535115: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800e00 of size 256 next 9
+2023-09-05 10:07:48.535120: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800f00 of size 256 next 12
+2023-09-05 10:07:48.535125: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801000 of size 256 next 17
+2023-09-05 10:07:48.535130: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801100 of size 256 next 15
+2023-09-05 10:07:48.535135: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801200 of size 256 next 16
+2023-09-05 10:07:48.535139: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801300 of size 256 next 20
+2023-09-05 10:07:48.535144: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801400 of size 256 next 21
+2023-09-05 10:07:48.535149: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801500 of size 256 next 22
+2023-09-05 10:07:48.535154: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801600 of size 256 next 23
+2023-09-05 10:07:48.535158: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801700 of size 256 next 24
+2023-09-05 10:07:48.535163: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801800 of size 256 next 27
+2023-09-05 10:07:48.535168: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801900 of size 256 next 25
+2023-09-05 10:07:48.535173: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801a00 of size 256 next 26
+2023-09-05 10:07:48.535178: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801b00 of size 256 next 30
+2023-09-05 10:07:48.535182: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801c00 of size 256 next 31
+2023-09-05 10:07:48.535187: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801d00 of size 256 next 32
+2023-09-05 10:07:48.535192: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801e00 of size 256 next 33
+2023-09-05 10:07:48.535197: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801f00 of size 512 next 36
+2023-09-05 10:07:48.535203: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802100 of size 256 next 34
+2023-09-05 10:07:48.535208: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802200 of size 256 next 35
+2023-09-05 10:07:48.535213: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802300 of size 256 next 40
+2023-09-05 10:07:48.535217: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802400 of size 256 next 37
+2023-09-05 10:07:48.535222: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802500 of size 256 next 39
+2023-09-05 10:07:48.535229: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802600 of size 256 next 13
+2023-09-05 10:07:48.535235: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802700 of size 3072 next 14
+2023-09-05 10:07:48.535239: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803300 of size 256 next 43
+2023-09-05 10:07:48.535244: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803400 of size 256 next 44
+2023-09-05 10:07:48.535249: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803500 of size 256 next 45
+2023-09-05 10:07:48.535254: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803600 of size 512 next 46
+2023-09-05 10:07:48.535259: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803800 of size 512 next 47
+2023-09-05 10:07:48.535263: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803a00 of size 512 next 50
+2023-09-05 10:07:48.535268: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803c00 of size 512 next 51
+2023-09-05 10:07:48.535273: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803e00 of size 512 next 52
+2023-09-05 10:07:48.535278: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804000 of size 256 next 53
+2023-09-05 10:07:48.535282: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804100 of size 256 next 54
+2023-09-05 10:07:48.535287: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804200 of size 1024 next 57
+2023-09-05 10:07:48.535292: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804600 of size 256 next 55
+2023-09-05 10:07:48.535297: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804700 of size 256 next 56
+2023-09-05 10:07:48.535302: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804800 of size 512 next 62
+2023-09-05 10:07:48.535306: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804a00 of size 512 next 60
+2023-09-05 10:07:48.535311: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804c00 of size 512 next 61
+2023-09-05 10:07:48.535316: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804e00 of size 512 next 65
+2023-09-05 10:07:48.535321: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7805000 of size 512 next 66
+2023-09-05 10:07:48.535326: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7805200 of size 256 next 67
+2023-09-05 10:07:48.535331: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7805300 of size 256 next 68
+2023-09-05 10:07:48.535335: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7805400 of size 1024 next 69
+2023-09-05 10:07:48.535340: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7805800 of size 1024 next 70
+2023-09-05 10:07:48.535345: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7805c00 of size 1024 next 73
+2023-09-05 10:07:48.535350: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806000 of size 1024 next 74
+2023-09-05 10:07:48.535355: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806400 of size 1024 next 75
+2023-09-05 10:07:48.535359: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806800 of size 256 next 76
+2023-09-05 10:07:48.535364: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806900 of size 256 next 77
+2023-09-05 10:07:48.535369: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806a00 of size 1024 next 78
+2023-09-05 10:07:48.535374: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806e00 of size 256 next 79
+2023-09-05 10:07:48.535379: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806f00 of size 256 next 80
+2023-09-05 10:07:48.535383: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7807000 of size 1024 next 82
+2023-09-05 10:07:48.535388: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7807400 of size 1024 next 83
+2023-09-05 10:07:48.535396: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7807800 of size 1024 next 84
+2023-09-05 10:07:48.535401: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7807c00 of size 1280 next 19
+2023-09-05 10:07:48.535406: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7808100 of size 9984 next 18
+2023-09-05 10:07:48.535411: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd780a800 of size 1024 next 86
+2023-09-05 10:07:48.535416: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd780ac00 of size 256 next 87
+2023-09-05 10:07:48.535421: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd780ad00 of size 256 next 88
+2023-09-05 10:07:48.535425: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd780ae00 of size 256 next 89
+2023-09-05 10:07:48.535430: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd780af00 of size 256 next 90
+2023-09-05 10:07:48.535435: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd780b000 of size 63488 next 38
+2023-09-05 10:07:48.535440: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd781a800 of size 38912 next 29
+2023-09-05 10:07:48.535445: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7824000 of size 52224 next 28
+2023-09-05 10:07:48.535450: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd7830c00 of size 200704 next 59
+2023-09-05 10:07:48.535455: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7861c00 of size 100352 next 58
+2023-09-05 10:07:48.535460: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd787a400 of size 124928 next 42
+2023-09-05 10:07:48.535465: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7898c00 of size 212992 next 41
+2023-09-05 10:07:48.535469: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd78ccc00 of size 200704 next 81
+2023-09-05 10:07:48.535474: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd78fdc00 of size 225280 next 49
+2023-09-05 10:07:48.535479: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7934c00 of size 425984 next 48
+2023-09-05 10:07:48.535484: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd799cc00 of size 1179648 next 64
+2023-09-05 10:07:48.535489: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7abcc00 of size 589824 next 63
+2023-09-05 10:07:48.535494: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd7b4cc00 of size 903168 next 72
+2023-09-05 10:07:48.535499: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7c29400 of size 903168 next 71
+2023-09-05 10:07:48.535504: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd7d05c00 of size 1075712 next 85
+2023-09-05 10:07:48.535509: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7e0c600 of size 2046464 next 18446744073709551615
+2023-09-05 10:07:48.535514: I tensorflow/tsl/framework/bfc_allocator.cc:1095]      Summary of in-use Chunks by size: 
+2023-09-05 10:07:48.535521: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 49 Chunks of size 256 totalling 12.2KiB
+2023-09-05 10:07:48.535527: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 11 Chunks of size 512 totalling 5.5KiB
+2023-09-05 10:07:48.535532: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 11 Chunks of size 1024 totalling 11.0KiB
+2023-09-05 10:07:48.535538: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 2 Chunks of size 1280 totalling 2.5KiB
+2023-09-05 10:07:48.535543: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 3072 totalling 3.0KiB
+2023-09-05 10:07:48.535548: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 9984 totalling 9.8KiB
+2023-09-05 10:07:48.535554: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 38912 totalling 38.0KiB
+2023-09-05 10:07:48.535560: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 52224 totalling 51.0KiB
+2023-09-05 10:07:48.535565: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 100352 totalling 98.0KiB
+2023-09-05 10:07:48.535574: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 212992 totalling 208.0KiB
+2023-09-05 10:07:48.535579: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 225280 totalling 220.0KiB
+2023-09-05 10:07:48.535585: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 425984 totalling 416.0KiB
+2023-09-05 10:07:48.535590: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 589824 totalling 576.0KiB
+2023-09-05 10:07:48.535596: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 903168 totalling 882.0KiB
+2023-09-05 10:07:48.535601: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 2046464 totalling 1.95MiB
+2023-09-05 10:07:48.535606: I tensorflow/tsl/framework/bfc_allocator.cc:1102] Sum Total of in-use chunks: 4.42MiB
+2023-09-05 10:07:48.535612: I tensorflow/tsl/framework/bfc_allocator.cc:1104] total_region_allocated_bytes_: 8388608 memory_limit_: 8388608 available bytes: 0 curr_region_allocation_bytes_: 16777216
+2023-09-05 10:07:48.535622: I tensorflow/tsl/framework/bfc_allocator.cc:1110] Stats: 
+Limit:                         8388608
+InUse:                         4640256
+MaxInUse:                      6889728
+NumAllocs:                         139
+MaxAllocSize:                  2046464
+Reserved:                            0
+PeakReserved:                        0
+LargestFreeBlock:                    0
+
+2023-09-05 10:07:48.535633: W tensorflow/tsl/framework/bfc_allocator.cc:492] ***_**_***__*********_____________********__________***********____________**************xxxxxxxxxxx
+2023-09-05 10:07:48.535658: W tensorflow/core/framework/op_kernel.cc:1830] OP_REQUIRES failed at stateless_random_ops_v2.cc:67 : RESOURCE_EXHAUSTED: OOM when allocating tensor with shape[7,196,256] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+2023-09-05 10:07:58.538096: W tensorflow/tsl/framework/bfc_allocator.cc:479] Allocator (GPU_0_bfc) ran out of memory trying to allocate 117.19MiB (rounded to 122880000)requested by op ExpandDims
+If the cause is memory fragmentation maybe the environment variable 'TF_GPU_ALLOCATOR=cuda_malloc_async' will improve the situation. 
+Current allocation summary follows.
+Current allocation summary follows.
+2023-09-05 10:07:58.538140: I tensorflow/tsl/framework/bfc_allocator.cc:1034] BFCAllocator dump for GPU_0_bfc
+2023-09-05 10:07:58.538151: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (256): 	Total Chunks: 47, Chunks in use: 47. 11.8KiB allocated for chunks. 11.8KiB in use in bin. 3.1KiB client-requested in use in bin.
+2023-09-05 10:07:58.538158: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (512): 	Total Chunks: 11, Chunks in use: 11. 5.5KiB allocated for chunks. 5.5KiB in use in bin. 5.5KiB client-requested in use in bin.
+2023-09-05 10:07:58.538165: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (1024): 	Total Chunks: 13, Chunks in use: 13. 13.5KiB allocated for chunks. 13.5KiB in use in bin. 10.4KiB client-requested in use in bin.
+2023-09-05 10:07:58.538172: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (2048): 	Total Chunks: 1, Chunks in use: 1. 3.0KiB allocated for chunks. 3.0KiB in use in bin. 3.0KiB client-requested in use in bin.
+2023-09-05 10:07:58.538178: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (4096): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:58.538185: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (8192): 	Total Chunks: 1, Chunks in use: 1. 9.8KiB allocated for chunks. 9.8KiB in use in bin. 9.6KiB client-requested in use in bin.
+2023-09-05 10:07:58.538191: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (16384): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:58.538198: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (32768): 	Total Chunks: 3, Chunks in use: 2. 151.5KiB allocated for chunks. 89.0KiB in use in bin. 83.0KiB client-requested in use in bin.
+2023-09-05 10:07:58.538219: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (65536): 	Total Chunks: 2, Chunks in use: 1. 220.0KiB allocated for chunks. 98.0KiB in use in bin. 98.0KiB client-requested in use in bin.
+2023-09-05 10:07:58.538226: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (131072): 	Total Chunks: 4, Chunks in use: 2. 820.0KiB allocated for chunks. 428.0KiB in use in bin. 404.0KiB client-requested in use in bin.
+2023-09-05 10:07:58.538233: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (262144): 	Total Chunks: 1, Chunks in use: 1. 416.0KiB allocated for chunks. 416.0KiB in use in bin. 416.0KiB client-requested in use in bin.
+2023-09-05 10:07:58.538239: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (524288): 	Total Chunks: 3, Chunks in use: 2. 2.29MiB allocated for chunks. 1.42MiB in use in bin. 1.42MiB client-requested in use in bin.
+2023-09-05 10:07:58.538245: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (1048576): 	Total Chunks: 3, Chunks in use: 1. 4.10MiB allocated for chunks. 1.95MiB in use in bin. 1.03MiB client-requested in use in bin.
+2023-09-05 10:07:58.538251: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (2097152): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:58.538257: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (4194304): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:58.538262: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (8388608): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:58.538268: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (16777216): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:58.538273: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (33554432): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:58.538279: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (67108864): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:58.538284: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (134217728): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:58.538290: I tensorflow/tsl/framework/bfc_allocator.cc:1041] Bin (268435456): 	Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2023-09-05 10:07:58.538297: I tensorflow/tsl/framework/bfc_allocator.cc:1057] Bin for 117.19MiB was 64.00MiB, Chunk State: 
+2023-09-05 10:07:58.538303: I tensorflow/tsl/framework/bfc_allocator.cc:1070] Next region of size 8388608
+2023-09-05 10:07:58.538312: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800000 of size 256 next 1
+2023-09-05 10:07:58.538317: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800100 of size 1280 next 2
+2023-09-05 10:07:58.538322: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800600 of size 256 next 3
+2023-09-05 10:07:58.538327: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800700 of size 256 next 4
+2023-09-05 10:07:58.538332: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800800 of size 256 next 5
+2023-09-05 10:07:58.538337: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800900 of size 256 next 6
+2023-09-05 10:07:58.538342: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800a00 of size 256 next 7
+2023-09-05 10:07:58.538347: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800b00 of size 256 next 8
+2023-09-05 10:07:58.538352: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800c00 of size 256 next 10
+2023-09-05 10:07:58.538360: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800d00 of size 256 next 11
+2023-09-05 10:07:58.538365: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800e00 of size 256 next 9
+2023-09-05 10:07:58.538370: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7800f00 of size 256 next 12
+2023-09-05 10:07:58.538375: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801000 of size 256 next 17
+2023-09-05 10:07:58.538380: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801100 of size 256 next 15
+2023-09-05 10:07:58.538385: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801200 of size 256 next 16
+2023-09-05 10:07:58.538390: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801300 of size 256 next 20
+2023-09-05 10:07:58.538395: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801400 of size 256 next 21
+2023-09-05 10:07:58.538399: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801500 of size 256 next 22
+2023-09-05 10:07:58.538404: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801600 of size 256 next 23
+2023-09-05 10:07:58.538409: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801700 of size 256 next 24
+2023-09-05 10:07:58.538414: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801800 of size 256 next 27
+2023-09-05 10:07:58.538419: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801900 of size 256 next 25
+2023-09-05 10:07:58.538424: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801a00 of size 256 next 26
+2023-09-05 10:07:58.538429: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801b00 of size 256 next 30
+2023-09-05 10:07:58.538434: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801c00 of size 256 next 31
+2023-09-05 10:07:58.538438: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801d00 of size 256 next 32
+2023-09-05 10:07:58.538443: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801e00 of size 256 next 33
+2023-09-05 10:07:58.538449: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7801f00 of size 512 next 36
+2023-09-05 10:07:58.538456: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802100 of size 256 next 34
+2023-09-05 10:07:58.538461: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802200 of size 256 next 35
+2023-09-05 10:07:58.538466: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802300 of size 256 next 40
+2023-09-05 10:07:58.538470: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802400 of size 256 next 37
+2023-09-05 10:07:58.538475: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802500 of size 256 next 39
+2023-09-05 10:07:58.538480: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802600 of size 256 next 13
+2023-09-05 10:07:58.538485: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7802700 of size 3072 next 14
+2023-09-05 10:07:58.538490: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803300 of size 256 next 43
+2023-09-05 10:07:58.538495: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803400 of size 256 next 44
+2023-09-05 10:07:58.538500: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803500 of size 256 next 45
+2023-09-05 10:07:58.538505: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803600 of size 512 next 46
+2023-09-05 10:07:58.538510: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803800 of size 512 next 47
+2023-09-05 10:07:58.538515: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803a00 of size 512 next 50
+2023-09-05 10:07:58.538520: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803c00 of size 512 next 51
+2023-09-05 10:07:58.538525: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7803e00 of size 512 next 52
+2023-09-05 10:07:58.538532: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804000 of size 256 next 53
+2023-09-05 10:07:58.538538: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804100 of size 256 next 54
+2023-09-05 10:07:58.538543: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804200 of size 1024 next 57
+2023-09-05 10:07:58.538548: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804600 of size 256 next 55
+2023-09-05 10:07:58.538553: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804700 of size 256 next 56
+2023-09-05 10:07:58.538558: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804800 of size 512 next 62
+2023-09-05 10:07:58.538563: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804a00 of size 512 next 60
+2023-09-05 10:07:58.538568: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804c00 of size 512 next 61
+2023-09-05 10:07:58.538573: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7804e00 of size 512 next 65
+2023-09-05 10:07:58.538578: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7805000 of size 512 next 66
+2023-09-05 10:07:58.538583: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7805200 of size 256 next 67
+2023-09-05 10:07:58.538588: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7805300 of size 256 next 68
+2023-09-05 10:07:58.538593: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7805400 of size 1024 next 69
+2023-09-05 10:07:58.538598: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7805800 of size 1024 next 70
+2023-09-05 10:07:58.538603: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7805c00 of size 1024 next 73
+2023-09-05 10:07:58.538608: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806000 of size 1024 next 74
+2023-09-05 10:07:58.538613: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806400 of size 1024 next 75
+2023-09-05 10:07:58.538617: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806800 of size 256 next 76
+2023-09-05 10:07:58.538622: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806900 of size 256 next 77
+2023-09-05 10:07:58.538627: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806a00 of size 1024 next 78
+2023-09-05 10:07:58.538632: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806e00 of size 256 next 79
+2023-09-05 10:07:58.538637: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7806f00 of size 256 next 80
+2023-09-05 10:07:58.538642: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7807000 of size 1024 next 82
+2023-09-05 10:07:58.538647: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7807400 of size 1024 next 83
+2023-09-05 10:07:58.538652: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7807800 of size 1024 next 84
+2023-09-05 10:07:58.538657: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7807c00 of size 1280 next 19
+2023-09-05 10:07:58.538662: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7808100 of size 9984 next 18
+2023-09-05 10:07:58.538668: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd780a800 of size 1024 next 86
+2023-09-05 10:07:58.538673: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd780ac00 of size 256 next 87
+2023-09-05 10:07:58.538677: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd780ad00 of size 256 next 88
+2023-09-05 10:07:58.538682: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd780ae00 of size 64000 next 38
+2023-09-05 10:07:58.538687: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd781a800 of size 38912 next 29
+2023-09-05 10:07:58.538693: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7824000 of size 52224 next 28
+2023-09-05 10:07:58.538698: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd7830c00 of size 200704 next 59
+2023-09-05 10:07:58.538705: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7861c00 of size 100352 next 58
+2023-09-05 10:07:58.538711: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd787a400 of size 124928 next 42
+2023-09-05 10:07:58.538716: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7898c00 of size 212992 next 41
+2023-09-05 10:07:58.538721: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd78ccc00 of size 200704 next 81
+2023-09-05 10:07:58.538726: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd78fdc00 of size 225280 next 49
+2023-09-05 10:07:58.538731: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7934c00 of size 425984 next 48
+2023-09-05 10:07:58.538736: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd799cc00 of size 1179648 next 64
+2023-09-05 10:07:58.538741: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7abcc00 of size 589824 next 63
+2023-09-05 10:07:58.538746: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd7b4cc00 of size 903168 next 72
+2023-09-05 10:07:58.538751: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7c29400 of size 903168 next 71
+2023-09-05 10:07:58.538756: I tensorflow/tsl/framework/bfc_allocator.cc:1090] Free  at 7efbd7d05c00 of size 1075712 next 85
+2023-09-05 10:07:58.538761: I tensorflow/tsl/framework/bfc_allocator.cc:1090] InUse at 7efbd7e0c600 of size 2046464 next 18446744073709551615
+2023-09-05 10:07:58.538766: I tensorflow/tsl/framework/bfc_allocator.cc:1095]      Summary of in-use Chunks by size: 
+2023-09-05 10:07:58.538773: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 47 Chunks of size 256 totalling 11.8KiB
+2023-09-05 10:07:58.538778: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 11 Chunks of size 512 totalling 5.5KiB
+2023-09-05 10:07:58.538784: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 11 Chunks of size 1024 totalling 11.0KiB
+2023-09-05 10:07:58.538790: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 2 Chunks of size 1280 totalling 2.5KiB
+2023-09-05 10:07:58.538795: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 3072 totalling 3.0KiB
+2023-09-05 10:07:58.538801: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 9984 totalling 9.8KiB
+2023-09-05 10:07:58.538806: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 38912 totalling 38.0KiB
+2023-09-05 10:07:58.538812: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 52224 totalling 51.0KiB
+2023-09-05 10:07:58.538817: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 100352 totalling 98.0KiB
+2023-09-05 10:07:58.538823: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 212992 totalling 208.0KiB
+2023-09-05 10:07:58.538828: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 225280 totalling 220.0KiB
+2023-09-05 10:07:58.538834: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 425984 totalling 416.0KiB
+2023-09-05 10:07:58.538839: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 589824 totalling 576.0KiB
+2023-09-05 10:07:58.538845: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 903168 totalling 882.0KiB
+2023-09-05 10:07:58.538850: I tensorflow/tsl/framework/bfc_allocator.cc:1098] 1 Chunks of size 2046464 totalling 1.95MiB
+2023-09-05 10:07:58.538855: I tensorflow/tsl/framework/bfc_allocator.cc:1102] Sum Total of in-use chunks: 4.42MiB
+2023-09-05 10:07:58.538861: I tensorflow/tsl/framework/bfc_allocator.cc:1104] total_region_allocated_bytes_: 8388608 memory_limit_: 8388608 available bytes: 0 curr_region_allocation_bytes_: 16777216
+2023-09-05 10:07:58.538869: I tensorflow/tsl/framework/bfc_allocator.cc:1110] Stats: 
+Limit:                         8388608
+InUse:                         4639744
+MaxInUse:                      6889728
+NumAllocs:                         139
+MaxAllocSize:                  2046464
+Reserved:                            0
+PeakReserved:                        0
+LargestFreeBlock:                    0
+
+2023-09-05 10:07:58.538882: W tensorflow/tsl/framework/bfc_allocator.cc:492] ***_**_***__*********_____________********__________***********____________**************xxxxxxxxxxx
+2023-09-05 10:13:46.253826: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-05 10:13:46.372541: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-09-05 10:13:46.941713: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-05 10:13:46.941822: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-05 10:13:46.941830: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-09-05 10:13:48.180570: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:13:48.219739: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:13:48.221821: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:13:48.224044: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-05 10:13:48.224941: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:13:48.226933: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:13:48.228899: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:13:48.960423: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:13:48.961474: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:13:48.962242: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-05 10:13:48.962963: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13642 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:1e.0, compute capability: 7.5
+2023-09-05 10:13:54.198869: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:428] Loaded cuDNN version 8903
+2023-09-05 10:13:59.921241: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x55cbbe1057f0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2023-09-05 10:13:59.921269: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+2023-09-05 10:13:59.925462: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2023-09-05 10:14:00.047101: I tensorflow/compiler/jit/xla_compilation_cache.cc:477] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+WARNING:tensorflow:5 out of the last 5 calls to <function _BaseOptimizer._update_step_xla at 0x7fb3b0278550> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function _BaseOptimizer._update_step_xla at 0x7fb3b0278550> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-09-05 10:22:10.776761: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 10:22:10.872451: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 10:34:49.850588: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 10:34:49.945594: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 10:46:07.876436: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 10:46:07.971828: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 10:56:54.752244: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 10:56:54.845153: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 11:07:20.785064: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 11:07:20.882526: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 11:17:55.836502: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 11:17:55.932128: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 11:28:25.514123: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 11:28:25.608180: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 11:39:03.156229: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 11:39:03.250987: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 11:49:34.447669: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 11:49:34.543118: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 11:59:58.156181: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 11:59:58.252028: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 12:10:27.411134: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 12:10:27.506056: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 12:20:53.256749: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 12:20:53.351540: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 12:31:14.394621: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 12:31:14.487979: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 12:41:47.189329: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 12:41:47.284617: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 12:52:14.910054: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 12:52:15.005464: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 13:02:35.606532: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 13:02:35.703772: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 13:13:58.620245: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 13:13:58.714753: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 13:24:28.683876: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 13:24:28.779641: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 13:34:46.974019: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 13:34:47.070408: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 13:45:10.967945: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 13:45:11.064605: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 13:55:40.293147: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 13:55:40.392951: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 14:06:03.707214: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 14:06:03.803104: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 14:16:33.712302: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 14:16:33.805992: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 14:27:05.092120: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 14:27:05.185828: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 14:37:30.987086: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 14:37:31.083821: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 14:47:58.785673: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 14:47:58.881378: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 14:58:28.543648: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 14:58:28.636182: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 15:08:51.012409: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 15:08:51.110957: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 15:19:22.757242: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 15:19:22.854160: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 15:29:54.435789: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 15:29:54.530347: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 15:40:16.196059: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 15:40:16.292796: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 15:50:44.557320: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 15:50:44.652963: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 16:01:12.455206: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 16:01:12.551904: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 16:11:35.141571: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 16:11:35.237467: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 16:22:02.126270: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 16:22:02.222391: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 16:32:33.842171: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 16:32:33.936476: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 16:42:56.954900: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 16:42:57.050911: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 16:53:25.777807: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 16:53:25.873727: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 17:03:55.946596: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 17:03:56.042646: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 17:14:16.001688: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 17:14:16.098553: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 17:24:46.012309: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 17:24:46.109388: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 17:35:14.711125: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 17:35:14.808406: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 17:45:40.492242: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 17:45:40.588618: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 17:56:12.259091: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 17:56:12.355499: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 18:06:28.858259: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 18:06:28.953091: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 18:16:48.894803: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 18:16:48.991866: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 18:27:22.712833: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 18:27:22.808292: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 18:37:48.461064: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 18:37:48.556476: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 18:48:12.661384: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 18:48:12.757719: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 18:58:40.370914: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 18:58:40.467013: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 19:08:56.949139: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 19:08:57.044296: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 19:19:20.407498: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 19:19:20.500460: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 19:29:49.836102: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 19:29:49.931052: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 19:40:11.149531: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 19:40:11.246951: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 19:50:38.151226: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 19:50:38.248361: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 20:01:05.304320: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 20:01:05.400686: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 20:11:24.446758: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 20:11:24.543463: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 20:21:44.805120: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 20:21:44.905775: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 20:32:10.978761: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 20:32:11.074990: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 20:42:34.125498: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 20:42:34.220752: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 20:53:06.572723: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 20:53:06.667412: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 21:03:24.247756: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 21:03:24.342837: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 21:13:44.517533: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 21:13:44.611178: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 21:24:14.920908: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 21:24:15.015649: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 21:34:29.864739: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 21:34:29.959096: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 21:44:49.160632: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 21:44:49.255882: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 21:55:20.864472: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 21:55:20.959875: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 22:05:38.983402: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 22:05:39.078553: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 22:16:02.547232: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 22:16:02.644822: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 22:26:37.211446: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 22:26:37.309676: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 22:36:59.152976: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 22:36:59.249813: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 22:47:18.979019: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 22:47:19.080093: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 22:57:50.429671: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 22:57:50.527140: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 23:08:22.067254: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 23:08:22.162977: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 23:18:51.317893: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 23:18:51.411377: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 23:29:28.469894: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 23:29:28.564566: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 23:39:48.014272: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 23:39:48.109400: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-05 23:50:11.182703: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-05 23:50:11.281364: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 00:00:44.583910: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 00:00:44.678365: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 00:11:07.453578: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 00:11:07.550738: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 00:21:34.756304: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 00:21:34.852938: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 00:32:04.618872: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 00:32:04.712054: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 00:42:24.579104: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 00:42:24.677055: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 00:52:52.342144: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 00:52:52.437380: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 01:03:18.048575: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 01:03:18.144073: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 01:13:38.414631: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 01:13:38.511768: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 01:24:05.296776: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 01:24:05.390448: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 01:34:33.039615: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 01:34:33.137896: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 01:47:15.351001: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-06 01:47:15.988473: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-09-06 01:47:18.064390: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-06 01:47:18.064508: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-06 01:47:18.064517: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-09-06 01:47:21.851983: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:47:22.000671: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:47:22.002881: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:47:22.006918: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-06 01:47:22.007820: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:47:22.009867: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:47:22.011817: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:47:23.826527: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:47:23.827910: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:47:23.828697: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:47:23.830129: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13641 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:1e.0, compute capability: 7.5
+2023-09-06 01:48:13.829334: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-06 01:48:13.950228: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-09-06 01:48:14.537249: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-06 01:48:14.537359: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-06 01:48:14.537368: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-09-06 01:48:15.977338: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:48:16.017961: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:48:16.020130: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:48:16.022317: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-06 01:48:16.023200: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:48:16.025248: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:48:16.027188: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:48:16.770349: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:48:16.771346: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:48:16.772111: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:48:16.772856: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13641 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:1e.0, compute capability: 7.5
+2023-09-06 01:49:20.190165: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-06 01:49:20.314016: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-09-06 01:49:20.903445: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-06 01:49:20.903555: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.7/lib64:/opt/amazon/efa/lib:/opt/amazon/openmpi/lib:/usr/local/cuda/efa/lib:/usr/local/cuda/lib:/usr/local/cuda:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/targets/x86_64-linux/lib:/usr/local/lib:/usr/lib:
+2023-09-06 01:49:20.903564: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-09-06 01:49:22.316271: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:49:22.357005: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:49:22.359188: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:49:22.361371: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-06 01:49:22.362251: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:49:22.364315: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:49:22.366244: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:49:23.111326: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:49:23.112354: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:49:23.113157: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-09-06 01:49:23.113905: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13641 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:1e.0, compute capability: 7.5
+2023-09-06 01:49:36.996706: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 01:49:37.336752: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 01:49:46.690124: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:428] Loaded cuDNN version 8903
+2023-09-06 01:49:55.181267: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x5556bb75abd0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2023-09-06 01:49:55.181301: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+2023-09-06 01:49:55.256882: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2023-09-06 01:49:55.779500: I tensorflow/compiler/jit/xla_compilation_cache.cc:477] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+WARNING:tensorflow:5 out of the last 5 calls to <function _BaseOptimizer._update_step_xla at 0x7fa5ec31b8b0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function _BaseOptimizer._update_step_xla at 0x7fa5ec31b8b0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2023-09-06 01:59:14.238636: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 01:59:14.334152: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 02:10:30.276670: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 02:10:30.374569: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 02:21:08.988463: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 02:21:09.080718: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 02:31:50.171653: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 02:31:50.269343: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 02:42:31.427032: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 02:42:31.520470: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 02:53:06.863162: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 02:53:06.956728: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 03:03:33.270773: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 03:03:33.365931: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 03:14:01.408060: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 03:14:01.501304: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 03:24:31.215331: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 03:24:31.313392: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 03:35:04.685976: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 03:35:04.781500: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 03:45:40.495556: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 03:45:40.590870: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 03:56:13.368956: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 03:56:13.465644: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 04:06:43.874024: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 04:06:43.970827: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 04:17:16.055058: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 04:17:16.153880: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 04:27:59.527578: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 04:27:59.623010: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 04:38:36.307731: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 04:38:36.403962: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 04:49:04.022140: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 04:49:04.116559: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 04:59:47.824594: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 04:59:47.925622: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 05:10:23.823329: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 05:10:23.920165: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 05:20:56.229628: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 05:20:56.326752: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 05:31:38.161632: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 05:31:38.257636: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 05:42:07.137985: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 05:42:07.239193: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 05:52:36.242362: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 05:52:36.337743: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 06:03:11.323049: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 06:03:11.419908: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 06:13:40.444128: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 06:13:40.538151: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 06:24:08.480602: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 06:24:08.577772: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 06:34:47.079996: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 06:34:47.176634: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 06:45:18.014813: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 06:45:18.110240: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 06:55:47.290278: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 06:55:47.384397: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 07:06:23.874713: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 07:06:23.969075: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 07:16:53.763871: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 07:16:53.859192: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 07:27:20.595533: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 07:27:20.690340: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 07:37:56.271056: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 07:37:56.366678: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 07:48:32.683589: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 07:48:32.779704: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 07:59:09.134447: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 07:59:09.231221: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 08:09:45.996559: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 08:09:46.092158: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 08:20:19.252922: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 08:20:19.353331: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 08:30:56.408047: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 08:30:56.504527: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 08:41:26.890036: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 08:41:26.984553: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 08:52:00.006906: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 08:52:00.107780: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 09:02:32.825104: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 09:02:32.920465: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 09:13:09.551435: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 09:13:09.650220: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 09:23:44.759703: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 09:23:44.856534: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 09:34:19.195596: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 09:34:19.291374: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 09:44:57.154988: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 09:44:57.249373: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 09:55:35.882993: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 09:55:35.977675: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 10:06:10.713810: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 10:06:10.808074: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 10:16:37.906855: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 10:16:38.001549: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 10:27:12.250017: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 10:27:12.343221: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 10:37:45.429251: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 10:37:45.525559: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 10:48:16.955216: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 10:48:17.053550: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.
+2023-09-06 10:58:54.703020: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:392] Filling up shuffle buffer (this may take a while): 2049 of 4096
+2023-09-06 10:58:54.798210: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:417] Shuffle buffer filled.

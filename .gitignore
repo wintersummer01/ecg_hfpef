@@ -1,6 +1,7 @@
 # Not Uploadable data
 # model weight and processed datasets
 logs/*/weight*
+logs/*/model*
 *processed_data* 
 
 # Byte-compiled / optimized / DLL files
